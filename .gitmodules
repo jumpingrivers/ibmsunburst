@@ -1,0 +1,3 @@
+[submodule "inst/sunburst-chart"]
+	path = inst/sunburst-chart
+	url = git@github.com:personality-insights/sunburst-chart.git
