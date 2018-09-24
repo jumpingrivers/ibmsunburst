@@ -6,7 +6,7 @@ The goal of ibmsunburst is to wrap the javascript library that IBM have produced
 - :ballot_box_with_check: Identify JS source
 - :ballot_box_with_check: Use htmlwidgets starter package
 - :ballot_box_with_check: Add relevant JS files to inst
-- :white_large_square: Include a sample dataset (see [ls examples](https://github.com/personality-insights/sunburst-chart/tree/master/docs/profiles) )
+- :white_large_square: Include a sample dataset (see [js libs' examples](https://github.com/personality-insights/sunburst-chart/tree/master/docs/profiles) )
 - :white_large_square: Adjust templates to incorporate JS lib
 - :white_large_square: Prep any data transformation or specifications needed
 - :white_large_square: Add testing and documentation
