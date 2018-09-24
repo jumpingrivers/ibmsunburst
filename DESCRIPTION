@@ -13,7 +13,6 @@ Authors@R: c(person(given = "Steph",
              role = c("fnd"),
               comment = "https://www.ibm.com/"))
 Description: Generates personality Insights sunburst diagrams in R based on IBM Watson Personality Insights service output.
-Depends: R (>= 3.5.1)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
