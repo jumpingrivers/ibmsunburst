@@ -1,11 +1,13 @@
-# 
+# IBM Personality Insights sunburst diagrams in R
 
-The goal of  is to ...
+The goal of ibmsunburst is to wrap the javascript library that IBM have produced for making sunburst personality insights charts for use in R and rmarkdown documents.
 
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-## basic example code
-```
+## Typical htmlwidgets workflow
+- [x] Identify JS source
+- [x] Use htmlwidgets starter package
+- [x] Add relevant JS files to inst
+- [ ] Include a sample dataset
+- [ ] Adjust templates to incorporate JS lib
+- [ ] Prep any data transformation or specifications needed
+- [ ] Add testing and documentation
+- [ ] Prepare for CRAN
