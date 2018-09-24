@@ -1,7 +1,5 @@
-# (uncomment to add a dependency)
-# dependencies:
-#  - name:
-#    version:
-#    src:
-#    script:
-#    stylesheet:
+dependencies:
+  - name: d3-color
+    version: 1.2.3
+    src: "htmlwidgets/lib/d3-color"
+    script: "d3-color.v1.min.js"
