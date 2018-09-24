@@ -3,11 +3,11 @@
 The goal of ibmsunburst is to wrap the javascript library that IBM have produced for making sunburst personality insights charts for use in R and rmarkdown documents.
 
 ## Typical htmlwidgets workflow
-- [x] Identify JS source
-- [x] Use htmlwidgets starter package
-- [x] Add relevant JS files to inst
-- [ ] Include a sample dataset
-- [ ] Adjust templates to incorporate JS lib
-- [ ] Prep any data transformation or specifications needed
-- [ ] Add testing and documentation
-- [ ] Prepare for CRAN
+- :ballot_box_with_check: Identify JS source
+- :ballot_box_with_check: Use htmlwidgets starter package
+- :ballot_box_with_check: Add relevant JS files to inst
+- :white_large_square: Include a sample dataset
+- :white_large_square: Adjust templates to incorporate JS lib
+- :white_large_square: Prep any data transformation or specifications needed
+- :white_large_square: Add testing and documentation
+- :white_large_square: Prepare for CRAN
