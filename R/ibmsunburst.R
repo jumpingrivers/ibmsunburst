@@ -1,11 +1,21 @@
-#' <Add Title>
+#' @title Produce an IBM Sunburst Diagram
 #'
-#' <Add Description>
+#' @description Produce an IBM Sunburst Diagram from a JSON data output from
+#' IBM Watson Personality Insights service
 #'
 #' @import htmlwidgets
 #'
+#' @param json_path Path to JSON data (IBM Watson Personality Insights service)
+#'
+#' @examples
+#' json_path <- system.file("extdata", "profiles",
+#'                          "en_v2.json", package = "ibmsunburst")
+#'
 #' @export
-ibmsunburst <- function(json_data, width = NULL, height = NULL, elementId = NULL) {
+ibmsunburst <- function(json_path, width = NULL, height = NULL, elementId = NULL) {
+
+  # read json_data
+  json_data <- jsonlite::read_json(json_path)
 
   # forward options using x
   x = list(

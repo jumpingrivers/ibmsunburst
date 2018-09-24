@@ -1,6 +1,6 @@
 # IBM Personality Insights sunburst diagrams in R
 
-The goal of ibmsunburst is to wrap the [javascript library that IBM have produced](https://personality-insights.github.io/sunburst-chart/) for making sunburst personality insights charts for use in R and rmarkdown documents.
+The goal of ibmsunburst is to wrap the [javascript library that IBM have produced](https://github.com/personality-insights/sunburst-chart/) for making sunburst personality insights charts for use in R and rmarkdown documents.
 
 ## Typical htmlwidgets workflow
 - :ballot_box_with_check: Identify JS source
