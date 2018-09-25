@@ -24,4 +24,4 @@ VignetteBuilder: knitr
 RoxygenNote: 6.1.0.9000
 Imports: 
     jsonlite,
-    htmlwidgets (>= 1.2.1)
+    htmlwidgets

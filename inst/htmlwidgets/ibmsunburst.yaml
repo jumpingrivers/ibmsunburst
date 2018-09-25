@@ -1,9 +1,5 @@
 dependencies:
-  - name: d3-color
-    version: 1.2.3
-    src: "htmlwidgets/lib/d3-color"
-    script: "d3-color.v1.min.js"
-  - name: d3-color
-    version: 1.1.8
-    src: "htmlwidgets/lib/d3-hierarchy"
-    script: "d3-hierarchy.v1.min.js"
+  - name: sunburst-chart
+    version: 2.2.4
+    src: "htmlwidgets/lib/sunburst-chart"
+    script: "index.js"
