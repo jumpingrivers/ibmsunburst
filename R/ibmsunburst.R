@@ -5,21 +5,69 @@
 #'
 #' @import htmlwidgets
 #'
-#' @param json_path Path to JSON data (IBM Watson Personality Insights service)
+#' @param json \code{list} of data or \character{path} to file with data
+#' from IBM Watson Personality Insights service.
+#'
+#' @param version \code{character} version ('v2', 'v3') of Watson Personality Insights profile.
+#' The default is 'v2' to match the JavaScript api.
 #'
 #' @examples
-#' json_path <- system.file("extdata", "profiles",
-#'                          "en_v2.json", package = "ibmsunburst")
+#' json_path <- system.file(
+#'   "extdata", "profiles",
+#'   "en_v2.json", package = "ibmsunburst"
+#' )
+#'
+#' ibmsunburst(json = json_path, version = "v2")
 #'
 #' @export
-ibmsunburst <- function(json_path, width = NULL, height = NULL, elementId = NULL) {
+ibmsunburst <- function(
+  json = NULL,
+  version = c("v2", "v3"),
+  width = NULL, height = NULL, elementId = NULL
+) {
 
-  # read json_data
-  json_data <- jsonlite::read_json(json_path)
+  # make sure that we have data and provide error with reason if not
+  if(is.null(json)) {
+    stop(
+      "Please provide data through the json argument as a\n JSON character string, file path, or list.",
+      call.=FALSE
+    )
+  }
+
+  # accept JSON string as data
+  if( inherits(json, c("character","connection")) ){
+    # seems foolish to convert to list and then back to character json
+    # but this way we can insure that data is in expected and consistent format
+    json = jsonlite::toJSON(
+      jsonlite::fromJSON(json, simplifyVector=FALSE),
+      auto_unbox = TRUE,
+      dataframe = "rows"
+    )
+  }
+  # accept list as data
+  if( inherits(json, "list") )  {
+    json = jsonlite::toJSON(
+      json,
+      auto_unbox = TRUE,
+      dataframe = "rows"
+    )
+  }
+
+  # check version to insure "v2", "v3"
+  if( !exists("version") || !(version[1] %in% c("v2", "v3"))  ) {
+    warning(
+      "Invalid version provided, so using default 'v2'.  Version should be either 'v2' or 'v3'.",
+      call. = FALSE
+    )
+    version = "v2"
+  } else {
+    version = version[1]
+  }
 
   # forward options using x
   x = list(
-    data=json_data
+    data = json,
+    version = version
   )
 
   # create widget
