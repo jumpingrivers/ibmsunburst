@@ -4,19 +4,31 @@
 \name{ibmsunburst}
 \alias{ibmsunburst}
 \alias{ibmsunburst-package}
+\alias{ibmsunburst}
 \title{ibmsunburst.}
 \usage{
-ibmsunburst(json_path, width = NULL, height = NULL, elementId = NULL)
+ibmsunburst(json = NULL, version = c("v2", "v3"), width = NULL,
+  height = NULL, elementId = NULL)
 }
 \arguments{
-\item{json_path}{Path to JSON data (IBM Watson Personality Insights service)}
+\item{json}{\code{list} of data or \character{path} to file with data
+from IBM Watson Personality Insights service.}
+
+\item{version}{\code{character} version ('v2', 'v3') of Watson Personality Insights profile.
+The default is 'v2' to match the JavaScript api.}
 }
 \description{
+ibmsunburst.
+
 Produce an IBM Sunburst Diagram from a JSON data output from
 IBM Watson Personality Insights service
 }
 \examples{
-json_path <- system.file("extdata", "profiles",
-                         "en_v2.json", package = "ibmsunburst")
+json_path <- system.file(
+  "extdata", "profiles",
+  "en_v2.json", package = "ibmsunburst"
+)
+
+ibmsunburst(json = json_path, version = "v2")
 
 }
