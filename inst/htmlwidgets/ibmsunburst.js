@@ -6,30 +6,35 @@ HTMLWidgets.widget({
 
   factory: function(el, width, height) {
 
-    // TODO: define shared variables for this instance
-var instance = {};
+    // set up instance at top level for access in all functions
+    // also we will attach instance with chart to our return object
+    // so that users can access from outside of this factory
+    var instance = {chart: null};
 
-    instance.chart = {};
     return {
 
       renderValue: function(x) {
+        // add x to our instance for outside access
         instance.x = x;
 
-        // x.data should be a data.frame in R so an Javascript Object of Objects
-        //     but buildHierarchy expects an Array of Arrays
-        //     so use d3.zip and apply to do this
+        var chart = new PersonalitySunburstChart({
+          'element': el,
+          'version': x.version
+        });
 
+        chart.show(x.data);
 
-        // TODO: code to render the widget, e.g.
-       chart.setProfile( x.data);
-
+        instance.chart = chart;
       },
 
       resize: function(width, height) {
 
         // TODO: code to re-render the widget with a new size
 
-      }
+      },
+
+      // attach to return object for outside access
+      instance: instance
 
     };
   }
