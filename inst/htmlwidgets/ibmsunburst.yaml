@@ -1,5 +1,9 @@
 dependencies:
   - name: sunburst-chart
     version: 2.2.4
-    src: "htmlwidgets/lib/sunburst-chart"
-    script: "index.js"
+    src: "htmlwidgets/lib/sunburst-chart/dist"
+    script: "personality-sunburst-chart.js"
+  - name: "core-js"
+    version: "2.5.3"
+    src: "htmlwidgets/lib/core-js/"
+    script: "core.min.js"
