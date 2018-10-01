@@ -1,5 +1,5 @@
 Package: ibmsunburst
-Title: Generate Personality Insights Sunburst Diagrams in R.
+Title: Generate Personality Insights Sunburst Diagrams
 Version: 0.1.0
 Authors@R: c(person(given = "Steph",
              family = "Locke",
@@ -12,7 +12,7 @@ Authors@R: c(person(given = "Steph",
              family = "Fedderson",
              role = c("fnd"),
               comment = "https://www.ibm.com/"))
-Description: Generates personality Insights sunburst diagrams in R based on IBM Watson Personality Insights service output.
+Description: Generates Personality Insights sunburst diagrams based on 'IBM Watson' Personality Insights service output.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

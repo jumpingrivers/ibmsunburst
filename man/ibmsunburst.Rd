@@ -4,22 +4,25 @@
 \name{ibmsunburst}
 \alias{ibmsunburst}
 \alias{ibmsunburst-package}
-\alias{ibmsunburst}
 \title{ibmsunburst.}
 \usage{
 ibmsunburst(json = NULL, version = c("v2", "v3"), width = NULL,
   height = NULL, elementId = NULL)
 }
 \arguments{
-\item{json}{\code{list} of data or \character{path} to file with data
+\item{json}{\code{list} of data or \code{path} to file with data
 from IBM Watson Personality Insights service.}
 
 \item{version}{\code{character} version ('v2', 'v3') of Watson Personality Insights profile.
 The default is 'v2' to match the JavaScript api.}
+
+\item{width}{Desired width of widget in pixels}
+
+\item{height}{Desired height of widget in pixels}
+
+\item{elementId}{Name to assign to widget}
 }
 \description{
-ibmsunburst.
-
 Produce an IBM Sunburst Diagram from a JSON data output from
 IBM Watson Personality Insights service
 }
