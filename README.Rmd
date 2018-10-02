@@ -7,7 +7,14 @@ The goal of ibmsunburst is to wrap the [javascript library that IBM have produce
 - :ballot_box_with_check: Use htmlwidgets starter package
 - :ballot_box_with_check: Add relevant JS files to inst
 - :ballot_box_with_check: Include a sample dataset
-- :white_large_square: Adjust templates to incorporate JS lib
-- :white_large_square: Prep any data transformation or specifications needed
+- :ballot_box_with_check: Adjust templates to incorporate JS lib
+- :ballot_box_with_check: Prep any data transformation or specifications needed
 - :white_large_square: Add testing and documentation
 - :white_large_square: Prepare for CRAN
+
+
+Fixed some integration issues
+
+- timelyportfolio/sunburst-chart@4b1ef69 - use d3v4 version
+- timelyportfolio/sunburst-chart@8aa4f37 - RStudio Viewer will be updated but as of now requires es5 JavaScript since it is a very outdated. Change .babelrc to target es5 and transpile Object.assign.
+- timelyportfolio/sunburst-chart@97a5c13 - babel the dist version which we use in htmlwidgets/lib
