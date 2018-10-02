@@ -1,27 +1,35 @@
 Package: ibmsunburst
 Title: Generate Personality Insights Sunburst Diagrams
 Version: 0.1.0
-Authors@R: c(person(given = "Steph",
+Authors@R: 
+    c(person(given = "Steph",
              family = "Locke",
              role = c("aut", "cre"),
              email = "steph@itsalocke.com"),
-             person(given = "IBM",
-             role = c("cph"),
-              comment = "IBM is author of the original JS code."),
-             person(given = "Hendrik",
+      person(given = "IBM",
+             role = "cph",
+             comment = "IBM is author of the original JS code."),
+      person(given = "Hendrik",
              family = "Fedderson",
-             role = c("fnd"),
-              comment = "https://www.ibm.com/"))
-Description: Generates Personality Insights sunburst diagrams based on 'IBM Watson' Personality Insights service output.
+             role = "fnd",
+             comment = "https://www.ibm.com/"),
+      person(given = "Kent",
+             family = "Russell",
+             role = "aut",
+             email = "kent.russell@timelyportfolio.com"))
+Description: Generates Personality Insights sunburst diagrams
+    based on 'IBM Watson' Personality Insights service output.
 License: MIT + file LICENSE
-Encoding: UTF-8
-LazyData: true
-Suggests: covr,
-    testthat,
-    knitr,
-    rmarkdown
-VignetteBuilder: knitr
-RoxygenNote: 6.1.0.9000
 Imports: 
     jsonlite,
     htmlwidgets
+Suggests: 
+    covr,
+    testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0.9000
