@@ -26,6 +26,10 @@ test_that("handles arguments as expected", {
   expect_is(sunviz2, "htmlwidget")
 
   # works with R list as our data source
+  sunviz3 <- ibmsunburst(json = jsonlite::fromJSON(json_path),
+                         version = "v2")
+  expect_is(sunviz3, "ibmsunburst")
+  expect_is(sunviz3, "htmlwidget")
 
   # checks version and warns if incorrect
 
