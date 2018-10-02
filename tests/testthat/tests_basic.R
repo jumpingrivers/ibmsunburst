@@ -32,5 +32,8 @@ test_that("handles arguments as expected", {
   expect_is(sunviz3, "htmlwidget")
 
   # checks version and warns if incorrect
+  expect_warning(ibmsunburst(json = json_path,
+                           version = "sonotaversion"),
+                 "Invalid version provided")
 
 })
