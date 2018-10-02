@@ -59,10 +59,10 @@ ibmsunburst <- function(
   # check version to insure "v2", "v3"
   if( !exists("version") || !(version[1] %in% c("v2", "v3"))  ) {
     warning(
-      "Invalid version provided, so using default 'v2'.  Version should be either 'v2' or 'v3'.",
+      "Invalid version provided, so using default 'v3'.  Version should be either 'v2' or 'v3'.",
       call. = FALSE
     )
-    version = "v2"
+    version = "v3"
   } else {
     version = version[1]
   }
