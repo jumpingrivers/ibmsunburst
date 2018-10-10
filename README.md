@@ -11,7 +11,7 @@ coverage](https://codecov.io/gh/lockedata/ibmsunburst/branch/master/graph/badge.
 
 The goal of ibmsunburst is to wrap the [javascript library that IBM have
 produced](https://github.com/personality-insights/sunburst-chart/) for
-making sunburst personality insights charts for use in R and rmarkdown
+making sunburst personality insights charts for use in R and R Markdown
 documents.
 
 ## Installations
@@ -40,6 +40,14 @@ ibmsunburst::ibmsunburst(json = json_path, version = "v2")
 ```
 
 ![](README_files/figure-gfm/sunburst-1.png)<!-- -->
+
+You can use the function on a list, on JSON or on a filepath, making it
+quite handy for integration in your workflow.
+
+There is no R wrapper for the [IBM Personality Insight
+API](https://www.ibm.com/watson/developercloud/personality-insights/api/v3/)
+itself yet, but you could use it with `httr`, as shown in a very short
+example in the vignette.
 
 ## Dev notes
 
