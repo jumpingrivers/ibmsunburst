@@ -10,7 +10,7 @@ ibmsunburst(json = NULL, version = c("v2", "v3"), width = NULL,
   height = NULL, elementId = NULL)
 }
 \arguments{
-\item{json}{\code{list} of data or \code{path} to file with data
+\item{json}{\code{list} of data or data as \code{JSON} or \code{path} to file with data
 from IBM Watson Personality Insights service.}
 
 \item{version}{\code{character} version ('v2', 'v3') of Watson Personality Insights profile.

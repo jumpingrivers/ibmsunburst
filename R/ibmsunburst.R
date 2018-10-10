@@ -5,7 +5,7 @@
 #'
 #' @import htmlwidgets
 #'
-#' @param json \code{list} of data or \code{path} to file with data
+#' @param json \code{list} of data or data as \code{JSON} or \code{path} to file with data
 #' from IBM Watson Personality Insights service.
 #'
 #' @param version \code{character} version ('v2', 'v3') of Watson Personality Insights profile.
