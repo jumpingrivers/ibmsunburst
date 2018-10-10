@@ -40,3 +40,10 @@ ibmsunburst::ibmsunburst(json = json_path, version = "v2")
 ```
 
 ![](README_files/figure-gfm/sunburst-1.png)<!-- -->
+
+## Dev notes
+
+[Kent Russel](https://github.com/timelyportfolio) added some
+documentation of the changes that he made to the source
+[sunburst-chart](https://github.com/personality-insights/sunburst-chart).
+Find them [here](inst/dev_notes.md).
