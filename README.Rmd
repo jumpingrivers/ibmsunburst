@@ -9,6 +9,8 @@ output: github_document
 
 The goal of ibmsunburst is to wrap the [javascript library that IBM have produced](https://github.com/personality-insights/sunburst-chart/) for making sunburst personality insights charts for use in R and R Markdown documents.
 
+Work on this package was part-sponsored by [Hendrik Feddersen](//github.com/Hendrik147), a prominent HR Analytics advocate.
+
 ## Installations
 
 Install `ibmsunburst` from GitHub
@@ -38,4 +40,4 @@ There is no R wrapper for the [IBM Personality Insight API](https://www.ibm.com/
 
 ## Dev notes
 
-[Kent Russel](https://github.com/timelyportfolio) added some documentation of the changes that he made to the source [sunburst-chart](https://github.com/personality-insights/sunburst-chart). Find them [here](inst/dev_notes.md).
+[Kent Russell](https://github.com/timelyportfolio) added some documentation of the changes that he made to the source [sunburst-chart](https://github.com/personality-insights/sunburst-chart). Find them [here](inst/dev_notes.md).
