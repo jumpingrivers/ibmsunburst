@@ -12,7 +12,9 @@ coverage](https://codecov.io/gh/lockedata/ibmsunburst/branch/master/graph/badge.
 The goal of ibmsunburst is to wrap the [javascript library that IBM have
 produced](https://github.com/personality-insights/sunburst-chart/) for
 making sunburst personality insights charts for use in R and R Markdown
-documents.
+documents. 
+
+Work on this package was part-sponsored by [Hendrik Feddersen](//github.com/Hendrik147), a prominent HR Analytics advocate.
 
 ## Installations
 
@@ -51,7 +53,7 @@ example in the vignette.
 
 ## Dev notes
 
-[Kent Russel](https://github.com/timelyportfolio) added some
+[Kent Russell](https://github.com/timelyportfolio) added some
 documentation of the changes that he made to the source
 [sunburst-chart](https://github.com/personality-insights/sunburst-chart).
 Find them [here](inst/dev_notes.md).
