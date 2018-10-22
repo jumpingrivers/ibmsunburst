@@ -13,8 +13,7 @@ ibmsunburst(json = NULL, version = c("v2", "v3"), width = NULL,
 \item{json}{\code{list} of data or data as \code{JSON} or \code{path} to file with data
 from IBM Watson Personality Insights service.}
 
-\item{version}{\code{character} version ('v2', 'v3') of Watson Personality Insights profile.
-The default is 'v2' to match the JavaScript api.}
+\item{version}{\code{character} version ('v2', 'v3') of Watson Personality Insights profile.}
 
 \item{width}{Desired width of widget in pixels}
 
