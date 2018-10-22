@@ -5,18 +5,27 @@ Authors@R:
     c(person(given = "Steph",
              family = "Locke",
              role = c("aut", "cre"),
-             email = "steph@itsalocke.com"),
+             email = "steph@itsalocke.com",
+             comment = c(ORCID = "0000-0002-2387-3723")),
       person(given = "IBM",
              role = "cph",
              comment = "IBM is author of the original JS code."),
       person(given = "Hendrik",
-             family = "Fedderson",
+             family = "Feddersen",
              role = "fnd",
              comment = "https://www.ibm.com/"),
       person(given = "Kent",
              family = "Russell",
              role = "aut",
-             email = "kent.russell@timelyportfolio.com"))
+             email = "kent.russell@timelyportfolio.com"),
+      person(given = "Locke Data",
+             role = "fnd",
+             comment = "https://itsalocke.com"),
+      person(given = "Maëlle",
+             family = "Salmon",
+             role = "ctb",
+             email = "maelle.salmon@yahoo.se",
+             comment = c(ORCID = "0000-0002-2815-0399")))
 Description: Generates Personality Insights sunburst diagrams
     based on 'IBM Watson' Personality Insights service output.
 License: MIT + file LICENSE

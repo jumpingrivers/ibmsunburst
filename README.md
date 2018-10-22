@@ -9,12 +9,13 @@ coverage](https://codecov.io/gh/lockedata/ibmsunburst/branch/master/graph/badge.
 
 # IBM Personality Insights sunburst diagrams in R
 
-The goal of ibmsunburst is to wrap the [javascript library that IBM have
+The goal of ibmsunburst is to wrap the [JavaScript library that IBM have
 produced](https://github.com/personality-insights/sunburst-chart/) for
 making sunburst personality insights charts for use in R and R Markdown
-documents. 
+documents.
 
-Work on this package was part-sponsored by [Hendrik Feddersen](//github.com/Hendrik147), a prominent HR Analytics advocate.
+Work on this package was part-sponsored by [Hendrik
+Feddersen](//github.com/Hendrik147), a prominent HR Analytics advocate.
 
 ## Installations
 
@@ -51,9 +52,19 @@ API](https://www.ibm.com/watson/developercloud/personality-insights/api/v3/)
 itself yet, but you could use it with `httr`, as shown in a very short
 example in the vignette.
 
-## Dev notes
+## Contributing
+
+Wanna report a bug or suggest a feature? Great stuff\! For more
+information on how to contribute check out [our contributing
+guide](.github/CONTRIBUTING.md).
+
+Please note that this R package is released with a [Contributor Code of
+Conduct](CODE_OF_CONDUCT.md). By participating in this package project
+you agree to abide by its terms.
+
+### Dev notes
 
 [Kent Russell](https://github.com/timelyportfolio) added some
 documentation of the changes that he made to the source
-[sunburst-chart](https://github.com/personality-insights/sunburst-chart).
-Find them [here](inst/dev_notes.md).
+[sunburst-chart](https://github.com/personality-insights/sunburst-chart)
+JavaScript library. Find them [here](inst/dev_notes.md).

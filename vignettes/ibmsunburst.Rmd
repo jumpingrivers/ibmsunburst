@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-The goal of ibmsunburst is to wrap the [javascript library that IBM have produced](https://github.com/personality-insights/sunburst-chart/) for making sunburst personality insights charts for use in R and R Markdown documents.
+The goal of ibmsunburst is to wrap the [JavaScript library that IBM have produced](https://github.com/personality-insights/sunburst-chart/) for making sunburst personality insights charts for use in R and R Markdown documents.
 
 # Use with example data
 
