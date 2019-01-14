@@ -1,5 +1,5 @@
 ## Test environments
-* local x86_64-w64-mingw32/x64 install, R 3.5.0
+* local Ubuntu install, R 3.4.4
 * rhub::check_for_cran
 
 ## R CMD check results
@@ -8,4 +8,4 @@
 
 ## Release summary
 
-* This is a new release.
+* Added Steph Locke's name to LICENSE.

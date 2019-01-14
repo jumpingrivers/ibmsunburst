@@ -1,6 +1,6 @@
 Package: ibmsunburst
 Title: Generate Personality Insights Sunburst Diagrams
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     c(person(given = "Steph",
              family = "Locke",
