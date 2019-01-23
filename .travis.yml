@@ -34,6 +34,7 @@ env:
   global:
   - _R_CHECK_FORCE_SUGGESTS_=false
   - MAKEFLAGS="-j 2"
-
+notifications:
+  webhooks: https://api.netlify.com/build_hooks/5c4858eb7aa4a60178a036e0
 #services
 services:
