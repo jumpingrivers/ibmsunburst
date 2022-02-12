@@ -3,11 +3,15 @@
 \docType{package}
 \name{ibmsunburst}
 \alias{ibmsunburst}
-\alias{ibmsunburst-package}
 \title{ibmsunburst.}
 \usage{
-ibmsunburst(json = NULL, version = c("v2", "v3"), width = NULL,
-  height = NULL, elementId = NULL)
+ibmsunburst(
+  json = NULL,
+  version = c("v2", "v3"),
+  width = NULL,
+  height = NULL,
+  elementId = NULL
+)
 }
 \arguments{
 \item{json}{\code{list} of data or data as \code{JSON} or \code{path} to file with data

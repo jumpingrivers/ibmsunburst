@@ -1,32 +1,33 @@
-![](http://cranlogs.r-pkg.org/badges/ibmsunburst)
-[![Build
-Status](https://travis-ci.org/lockedata/ibmsunburst.svg?branch=master)](https://travis-ci.org/lockedata/ibmsunburst)
-[![Codecov test
-coverage](https://codecov.io/gh/lockedata/ibmsunburst/branch/master/graph/badge.svg)](https://codecov.io/gh/lockedata/ibmsunburst?branch=master)
+
+<!-- badges: start -->
+
+[![Project Status: WIP – Initial development is in progress, but there
+has not yet been a stable, usable release suitable for the
+public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/ibmsunburst)](https://CRAN.R-project.org/package=ibmsunburst)
+[![R-CMD-check](https://github.com/jumpingrivers/ibmsunburst/workflows/R-CMD-check/badge.svg)](https://github.com/jumpingrivers/ibmsunburst/actions)
+<!-- badges: end -->
 
 # IBM Personality Insights sunburst diagrams in R
 
-The goal of ibmsunburst is to wrap the [JavaScript library that IBM have
-produced](https://github.com/personality-insights/sunburst-chart/) for
-making sunburst personality insights charts for use in R and R Markdown
-documents.
+The goal of {ibmsunburst} is to wrap the [JavaScript library that IBM
+have produced](https://github.com/personality-insights/sunburst-chart/)
+for making sunburst personality insights charts for use in R and R
+Markdown documents.
 
 Work on this package was part-sponsored by [Hendrik
 Feddersen](//github.com/Hendrik147), a prominent HR Analytics advocate.
 
 ## Installations
 
-Install `ibmsunburst` from GitHub
+Install {ibmsunburst} from GitHub
 
 ``` r
 # install.packages("remotes")
-remotes::install_gitub("lockedata/imbsunburst")
+remotes::install_gitub("jumpingrivers/imbsunburst")
 ```
 
-Install from CRAN
-``` r
-install.packages("ibmsunburst")
-```
 ## Example
 
 Below we input the path to a JSON file corresponding to the output of
@@ -43,19 +44,19 @@ json_path <- system.file(
 ibmsunburst::ibmsunburst(json = json_path, version = "v2")
 ```
 
-![](README_files/figure-gfm/sunburst-1.png)<!-- -->
+![](man/figures/sunburst-1.png)<!-- -->
 
 You can use the function on a list, on JSON or on a filepath, making it
 quite handy for integration in your workflow.
 
 There is no R wrapper for the [IBM Personality Insight
 API](https://www.ibm.com/watson/developercloud/personality-insights/api/v3/)
-itself yet, but you could use it with `httr`, as shown in a very short
+itself yet, but you could use it with {httr}, as shown in a very short
 example in the vignette.
 
 ## Contributing
 
-Wanna report a bug or suggest a feature? Great stuff\! For more
+Wanna report a bug or suggest a feature? Great stuff! For more
 information on how to contribute check out [our contributing
 guide](.github/CONTRIBUTING.md).
 
