@@ -1,3 +1,7 @@
+# ibmsunburst 0.1.2
+
+* Update maintainer
+
 # ibmsunburst 0.1.1
 
 * Added Steph Locke's name in LICENSE file.

@@ -1,9 +1,9 @@
 ---
-title: "Intro to ibmsunburst"
+title: "Introduction to ibmsunburst"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteIndexEntry{Introduction to ibmsunburst}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-The goal of ibmsunburst is to wrap the [JavaScript library that IBM have produced](https://github.com/personality-insights/sunburst-chart/) for making sunburst personality insights charts for use in R and R Markdown documents.
+The goal of {ibmsunburst} is to wrap the [JavaScript library that IBM have produced](https://github.com/personality-insights/sunburst-chart/) for making sunburst personality insights charts for use in R and R Markdown documents.
 
 # Use with example data
 
