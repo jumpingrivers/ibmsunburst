@@ -1,9 +1,7 @@
-pandoc: '2.2'
-pkgdown: 1.4.1
+pandoc: 2.7.3
+pkgdown: 2.0.2
 pkgdown_sha: ~
 articles:
   ibmsunburst: ibmsunburst.html
-urls:
-  reference: https://itsalocke.com/ibmsunburst/reference
-  article: https://itsalocke.com/ibmsunburst/articles
+last_built: 2022-02-12T17:57Z
 
