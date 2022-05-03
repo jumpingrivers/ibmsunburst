@@ -14,3 +14,5 @@
 ^README\.Rmd$
 ^README-.*\.png$
 README_files$
+^CRAN-SUBMISSION$
+^LICENSE\.md$

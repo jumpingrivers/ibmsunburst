@@ -52,7 +52,7 @@ You can use the function on a list, on JSON or on a filepath, making it
 quite handy for integration in your workflow.
 
 There is no R wrapper for the [IBM Personality Insight
-API](https://www.ibm.com/watson/developercloud/personality-insights/api/v3/)
+API](https://www.ibm.com/docs/en/app-connect/containers_cd?topic=SSTTDS_contcd/com.ibm.ace.icp.doc/localconn_ibmwatsonpi.html)
 itself yet, but you could use it with {httr}, as shown in a very short
 example in the vignette.
 
