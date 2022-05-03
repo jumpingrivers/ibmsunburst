@@ -53,7 +53,13 @@ There is no R wrapper for the [IBM Personality Insight API](https://www.ibm.com/
 
 ## Dev notes
 
+<<<<<<< HEAD
 [Kent Russell](https://github.com/timelyportfolio) added some documentation of the changes that he made to the source [sunburst-chart](https://github.com/personality-insights/sunburst-chart) JavaScript library. Find them [here](inst/dev_notes.md).
+=======
+Wanna report a bug or suggest a feature? Great stuff! For more information on how to contribute check out [our contributing guide](.github/CONTRIBUTING.md). 
+
+Please note that this R package is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this package project you agree to abide by its terms.
+>>>>>>> main
 
 ## Code of Conduct
   
