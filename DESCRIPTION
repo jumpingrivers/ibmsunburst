@@ -16,7 +16,7 @@ Authors@R: c(
   )
 Description: Generates Personality Insights sunburst diagrams based on
     'IBM Watson' Personality Insights service output.
-License: GPL (>= 3)
+License: MIT + file LICENSE
 URL: https://github.com/jumpingrivers/ibmsunburst,
     https://jumpingrivers.github.io/ibmsunburst/
 BugReports: https://github.com/jumpingrivers/ibmsunburst/issues
