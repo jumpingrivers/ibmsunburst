@@ -52,19 +52,9 @@ You can use the function on a list, on JSON or on a filepath, making it
 quite handy for integration in your workflow.
 
 There is no R wrapper for the [IBM Personality Insight
-API](https://www.ibm.com/watson/developercloud/personality-insights/api/v3/)
+API](https://www.ibm.com/docs/en/app-connect/containers_cd?topic=SSTTDS_contcd/com.ibm.ace.icp.doc/localconn_ibmwatsonpi.html)
 itself yet, but you could use it with {httr}, as shown in a very short
 example in the vignette.
-
-## Contributing
-
-Wanna report a bug or suggest a feature? Great stuff! For more
-information on how to contribute check out [our contributing
-guide](.github/CONTRIBUTING.md).
-
-Please note that this R package is released with a [Contributor Code of
-Conduct](CODE_OF_CONDUCT.md). By participating in this package project
-you agree to abide by its terms.
 
 ### Dev notes
 
@@ -72,3 +62,10 @@ you agree to abide by its terms.
 documentation of the changes that he made to the source
 [sunburst-chart](https://github.com/personality-insights/sunburst-chart)
 JavaScript library. Find them [here](inst/dev_notes.md).
+
+## Code of Conduct
+
+Please note that the ibmsunburst project is released with a [Contributor
+Code of
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
