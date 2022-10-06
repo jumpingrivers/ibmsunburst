@@ -99,6 +99,8 @@ ibmsunburst <- function(
 #'
 #' @name ibmsunburst-shiny
 #'
+#' @returns A htmlwidget of the sunburst
+#'
 #' @export
 ibmsunburstOutput <- function(outputId, width = '100%', height = '400px'){
   htmlwidgets::shinyWidgetOutput(outputId, 'ibmsunburst', width, height, package = 'ibmsunburst')
