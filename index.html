@@ -81,34 +81,33 @@
 </h2>
 <p>Install {ibmsunburst} from GitHub</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="co"># install.packages("remotes")</span>
-<span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_gitub</span><span class="op">(</span><span class="st">"jumpingrivers/imbsunburst"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span><span class="co"># install.packages("remotes")</span></span>
+<span><span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_gitub</span><span class="op">(</span><span class="st">"jumpingrivers/imbsunburst"</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
 </h2>
 <p>Below we input the path to a JSON file corresponding to the output of <a href="https://www.ibm.com/watson/services/personality-insights/" class="external-link">IBM Watson Personality Insights service</a> and visualize it.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="va">json_path</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/system.file.html" class="external-link">system.file</a></span><span class="op">(</span>
-  <span class="st">"extdata"</span>, <span class="st">"profiles"</span>,
-  <span class="st">"en_v2.json"</span>, package <span class="op">=</span> <span class="st">"ibmsunburst"</span>
-<span class="op">)</span>
-
-<span class="fu">ibmsunburst</span><span class="fu">::</span><span class="fu"><a href="reference/ibmsunburst.html">ibmsunburst</a></span><span class="op">(</span>json <span class="op">=</span> <span class="va">json_path</span>, version <span class="op">=</span> <span class="st">"v2"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span><span class="va">json_path</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/system.file.html" class="external-link">system.file</a></span><span class="op">(</span></span>
+<span>  <span class="st">"extdata"</span>, <span class="st">"profiles"</span>,</span>
+<span>  <span class="st">"en_v2.json"</span>, package <span class="op">=</span> <span class="st">"ibmsunburst"</span></span>
+<span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu">ibmsunburst</span><span class="fu">::</span><span class="fu"><a href="reference/ibmsunburst.html">ibmsunburst</a></span><span class="op">(</span>json <span class="op">=</span> <span class="va">json_path</span>, version <span class="op">=</span> <span class="st">"v2"</span><span class="op">)</span></span></code></pre></div>
 <p><img src="reference/figures/sunburst-1.png"><!-- --></p>
 <p>You can use the function on a list, on JSON or on a filepath, making it quite handy for integration in your workflow.</p>
-<p>There is no R wrapper for the <a href="https://www.ibm.com/watson/developercloud/personality-insights/api/v3/" class="external-link">IBM Personality Insight API</a> itself yet, but you could use it with {httr}, as shown in a very short example in the vignette.</p>
-</div>
-<div class="section level2">
-<h2 id="contributing">Contributing<a class="anchor" aria-label="anchor" href="#contributing"></a>
-</h2>
-<p>Wanna report a bug or suggest a feature? Great stuff! For more information on how to contribute check out <a href="CONTRIBUTING.html">our contributing guide</a>.</p>
-<p>Please note that this R package is released with a <a href="CODE_OF_CONDUCT.html">Contributor Code of Conduct</a>. By participating in this package project you agree to abide by its terms.</p>
+<p>There is no R wrapper for the <a href="https://www.ibm.com/docs/en/app-connect/containers_cd?topic=SSTTDS_contcd/com.ibm.ace.icp.doc/localconn_ibmwatsonpi.html" class="external-link">IBM Personality Insight API</a> itself yet, but you could use it with {httr}, as shown in a very short example in the vignette.</p>
 <div class="section level3">
 <h3 id="dev-notes">Dev notes<a class="anchor" aria-label="anchor" href="#dev-notes"></a>
 </h3>
 <p><a href="https://github.com/timelyportfolio" class="external-link">Kent Russell</a> added some documentation of the changes that he made to the source <a href="https://github.com/personality-insights/sunburst-chart" class="external-link">sunburst-chart</a> JavaScript library. Find them <a href="inst/dev_notes.html">here</a>.</p>
 </div>
+</div>
+<div class="section level2">
+<h2 id="code-of-conduct">Code of Conduct<a class="anchor" aria-label="anchor" href="#code-of-conduct"></a>
+</h2>
+<p>Please note that the ibmsunburst project is released with a <a href="https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html" class="external-link">Contributor Code of Conduct</a>. By contributing to this project, you agree to abide by its terms.</p>
 </div>
 </div>
 
@@ -127,9 +126,8 @@
 <div class="license">
 <h2 data-toc-skip>License</h2>
 <ul class="list-unstyled">
-<li>
-<a href="https://www.r-project.org/Licenses/GPL-2" class="external-link">GPL-2</a> | <a href="https://www.r-project.org/Licenses/GPL-3" class="external-link">GPL-3</a>
-</li>
+<li><a href="LICENSE.html">Full license</a></li>
+<li><small><a href="https://opensource.org/licenses/mit-license.php" class="external-link">MIT</a> + file <a href="LICENSE-text.html">LICENSE</a></small></li>
 </ul>
 </div>
 
@@ -138,6 +136,7 @@
 <ul class="list-unstyled">
 <li><a href="CONTRIBUTING.html">Contributing guide</a></li>
 <li><a href="CODE_OF_CONDUCT.html">Code of conduct</a></li>
+<li><a href="SUPPORT.html">Getting help</a></li>
 </ul>
 </div>
 
@@ -163,7 +162,7 @@
 <div class="dev-status">
 <h2 data-toc-skip>Dev status</h2>
 <ul class="list-unstyled">
-<li><a href="https://www.repostatus.org/#wip" class="external-link"><img src="https://www.repostatus.org/badges/latest/wip.svg" alt="Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public."></a></li>
+<li><a href="https://lifecycle.r-lib.org/articles/stages.html#stable" class="external-link"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" alt="Lifecycle: stable"></a></li>
 <li><a href="https://CRAN.R-project.org/package=ibmsunburst" class="external-link"><img src="https://www.r-pkg.org/badges/version/ibmsunburst" alt="CRAN status"></a></li>
 <li><a href="https://app.codecov.io/gh/jumpingrivers/ibmsunburst?branch=main" class="external-link"><img src="https://codecov.io/gh/jumpingrivers/ibmsunburst/branch/main/graph/badge.svg" alt="Codecov test coverage"></a></li>
 <li><a href="https://github.com/jumpingrivers/ibmsunburst/actions" class="external-link"><img src="https://github.com/jumpingrivers/ibmsunburst/workflows/R-CMD-check/badge.svg" alt="R-CMD-check"></a></li>
@@ -181,7 +180,7 @@
 
 <div class="pkgdown">
   <p></p>
-<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.2.</p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.6.</p>
 </div>
 
       </footer>
