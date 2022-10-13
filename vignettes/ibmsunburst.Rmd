@@ -27,20 +27,21 @@ ibmsunburst::ibmsunburst(system.file(
   "en_v2.json", package = "ibmsunburst"
 ),
                            version = "v2")
+```
 
+
+```{r}
 ibmsunburst::ibmsunburst(system.file(
   "extdata", "profiles",
   "en_v3.json", package = "ibmsunburst"
 ),
                            version = "v3")
-
 ```
-
 If you use the wrong version argument, then the widget will be blank. 
 
 # Use with real data
 
-The actual use of the package is to apply it on the output from [IBM Personality Insight API](https://www.ibm.com/watson/developercloud/personality-insights/api/v3/). `ibmsunburst::ibmsunburst()` accept the data as list, JSON or path to file.
+The actual use of the package is to apply it on the output from [IBM Personality Insight API](https://www.ibm.com/docs/en/app-connect/containers_cd?topic=SSTTDS_contcd/com.ibm.ace.icp.doc/localconn_ibmwatsonpi.html). `ibmsunburst::ibmsunburst()` accept the data as list, JSON or path to file.
 
 Say you have a text file of someone's writing, called "sample.txt". Here's how you could query the API. There is no R wrapper for it... yet?
 
@@ -191,7 +192,6 @@ The result is a list, that you can directly pass to `ibmsunburst::ibmsunburst()`
 ```{r}
 ibmsunburst::ibmsunburst(insightdata,
                          version = "v3")
-
 ```
 
 Enjoy visualizing IBM Personality Insights!
