@@ -1,3 +1,7 @@
+# ibmsunburst 0.1.3
+
+* Fix roxygen2 issue https://github.com/r-lib/roxygen2/issues/1491
+
 # ibmsunburst 0.1.2
 
 * Update maintainer
