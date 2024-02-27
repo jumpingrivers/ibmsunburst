@@ -2,5 +2,4 @@
 
 0 errors | 0 warnings | 1 note
 
-* Update maintainer
-* {ibmsunburst} does not reference academic publications
+* This is a new release.
