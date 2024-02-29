@@ -7,6 +7,7 @@ output: github_document
 [![Codecov test
 coverage](https://codecov.io/gh/jumpingrivers/ibmsunburst/branch/main/graph/badge.svg)](https://app.codecov.io/gh/jumpingrivers/ibmsunburst?branch=main)
 [![R-CMD-check](https://github.com/jumpingrivers/ibmsunburst/workflows/R-CMD-check/badge.svg)](https://github.com/jumpingrivers/ibmsunburst/actions)
+[![R-CMD-check](https://github.com/jumpingrivers/ibmsunburst/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jumpingrivers/ibmsunburst/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 
