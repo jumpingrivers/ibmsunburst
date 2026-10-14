@@ -1,3 +1,9 @@
+# ibmsunburst 0.1.5
+
+## Bug fixes and minor improvements
+
+* Issues now use the Jumping Rivers organisation templates.
+
 # ibmsunburst 0.1.4
 
 * Update maintainer
