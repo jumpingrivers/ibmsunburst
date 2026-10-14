@@ -1,6 +1,6 @@
 Package: ibmsunburst
 Title: Generate Personality Insights Sunburst Diagrams
-Version: 0.1.4
+Version: 0.1.5
 Authors@R: c(
     person("Colin", "Gillespie", , "colin@jumpingrivers.com", role = c("aut", "cre")),
     person("Steph", "Locke", , "steph@itsalocke.com", role = "aut",
